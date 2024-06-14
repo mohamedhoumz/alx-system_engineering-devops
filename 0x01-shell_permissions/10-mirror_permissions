@@ -1,0 +1,3 @@
+#!/bin/bash
+permissions=$(ls -l olleh | cut -d " " -f 1)
+chmod "$permissions" hello
