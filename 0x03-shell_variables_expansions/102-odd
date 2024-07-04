@@ -1,2 +1,2 @@
 #!/bin/bash
-while IFS= read -r line; do if [ $((c++ % 2)) -eq 0 ]; then echo "$line"; fi; done
+awk "NR % 2 == 1"
